@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{B34B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiShop.Catalog", "Services\Catalog\MultiShop.Catalog\MultiShop.Catalog.csproj", "{76859882-F5C3-4770-B8C0-17B3D2AEB550}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{219DB985-C7E1-4AAA-BBA4-2DC614ED76DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B34BF02A-E1A4-414B-A5A4-B67AF65F96E2} = {0B1ECE45-4B00-4687-87F0-3E6CFE4B96B0}
 		{76859882-F5C3-4770-B8C0-17B3D2AEB550} = {B34BF02A-E1A4-414B-A5A4-B67AF65F96E2}
+		{219DB985-C7E1-4AAA-BBA4-2DC614ED76DB} = {0B1ECE45-4B00-4687-87F0-3E6CFE4B96B0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA097D8A-FBF4-4FBE-AD1A-E4508E4EE565}
