@@ -1,22 +1,22 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Data;
+using System.Data.SqlClient;
+using Microsoft.Extensions.Configuration;
 
 namespace MultiShop.Discount.Context
 {
-    public class DapperContext:DbContext
+    public class DapperContext
     {
-        private readonly IConfiguration _configuration;
         private readonly string _connectionString;
 
         public DapperContext(IConfiguration configuration)
         {
-            _configuration = configuration;
-            _connectionString = _configuration.GetConnectionString("DefaultConnection");
+            _connectionString = configuration.GetConnectionString("DefaultConnection");
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public IDbConnection CreateConnection()
         {
-            optionsBuilder.UseSqlServer(_connectionString);
+            // SqlConnection kullanarak bir veritabanı bağlantısı oluşturuyoruz.
+            return new SqlConnection(_connectionString);
         }
-
     }
 }
