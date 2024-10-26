@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace MultiShop.Order.Domain.Entities
 {
-    internal class Ordering
+    public class Ordering
     {
+        
     }
 }
