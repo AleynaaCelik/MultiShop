@@ -19,4 +19,12 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\MultiShop.Order.Domain\MultiShop.Order.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
