@@ -7,6 +7,8 @@ Proje Hakkında
 Bu proje, Murat Yücedağ hocamın Udemy'deki ASP.NET Core MultiShop Mikroservis E-Ticaret kursuna dayanarak geliştirilmiştir. Proje, N-Katmanlı Mimarî ve Onion mimarisi ile yapılandırılmış, SOLID prensiplerine uygun olarak tasarlanmıştır.
 
 Özellikler
+
+
 Mikroservis Mimarisi: Projede bağımsız olarak yönetilebilen mikroservisler bulunmaktadır.
 
 
