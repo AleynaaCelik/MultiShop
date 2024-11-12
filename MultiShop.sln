@@ -23,11 +23,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presantation", "Presantatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiShop.Order.Domain", "Services\Order\Core\MultiShop.Order.Domain\MultiShop.Order.Domain.csproj", "{31257D3F-CB0D-4125-9B49-ABDACFFBA0BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Order.Application", "Services\Order\Core\MultiShop.Order.Application\MultiShop.Order.Application.csproj", "{F0E226E4-B109-41A2-B8EE-E4D1D6BC2EEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiShop.Order.Application", "Services\Order\Core\MultiShop.Order.Application\MultiShop.Order.Application.csproj", "{F0E226E4-B109-41A2-B8EE-E4D1D6BC2EEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Order.Persistance", "Services\Order\Infrastructure\MultiShop.Order.Persistance\MultiShop.Order.Persistance.csproj", "{A1D11F9D-1C89-4207-A472-9076C73BD1D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiShop.Order.Persistance", "Services\Order\Infrastructure\MultiShop.Order.Persistance\MultiShop.Order.Persistance.csproj", "{A1D11F9D-1C89-4207-A472-9076C73BD1D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Order.WebApi", "Services\Order\Presantation\MultiShop.Order.WebApi\MultiShop.Order.WebApi.csproj", "{E7246106-0F71-43C9-B995-D8CE0AA2EC75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiShop.Order.WebApi", "Services\Order\Presantation\MultiShop.Order.WebApi\MultiShop.Order.WebApi.csproj", "{E7246106-0F71-43C9-B995-D8CE0AA2EC75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{B10DAE73-442D-47E7-9432-36F1CE9B7AFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MultiShop.Basket", "MultiShop.Basket", "{8BF6B027-C8F2-4788-91F4-C43B0911331C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -76,6 +80,8 @@ Global
 		{F0E226E4-B109-41A2-B8EE-E4D1D6BC2EEC} = {2EE6F129-BC11-4618-91E2-10CD4FF74F9E}
 		{A1D11F9D-1C89-4207-A472-9076C73BD1D9} = {2285E5DC-5399-4340-8561-74560ECC0F18}
 		{E7246106-0F71-43C9-B995-D8CE0AA2EC75} = {99BE647B-4721-4830-B578-48DC362B5B63}
+		{B10DAE73-442D-47E7-9432-36F1CE9B7AFC} = {0B1ECE45-4B00-4687-87F0-3E6CFE4B96B0}
+		{8BF6B027-C8F2-4788-91F4-C43B0911331C} = {B10DAE73-442D-47E7-9432-36F1CE9B7AFC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA097D8A-FBF4-4FBE-AD1A-E4508E4EE565}
