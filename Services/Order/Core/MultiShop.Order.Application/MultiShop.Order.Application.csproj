@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Features\Mediator\Results\" />
-    <Folder Include="Features\Mediator\Queries\" />
   </ItemGroup>
 
   <ItemGroup>
