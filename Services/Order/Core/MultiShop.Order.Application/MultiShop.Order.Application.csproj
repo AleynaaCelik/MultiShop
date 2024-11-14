@@ -7,8 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Features\CQRS\Queries\OrderingQueries\" />
-    <Folder Include="Features\Mediator\Handlers\" />
     <Folder Include="Features\Mediator\Results\" />
     <Folder Include="Features\Mediator\Queries\" />
   </ItemGroup>
