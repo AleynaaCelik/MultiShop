@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MultiShop.Comment.Entities;
 
 namespace MultiShop.Comment.Context
 {
