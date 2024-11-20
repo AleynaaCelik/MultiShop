@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MultiShop.Message.DAL.Entities;
 using System.Collections.Generic;
 
 namespace MultiShop.Message.DAL.Context
