@@ -1,0 +1,16 @@
+﻿@model List<ResultSpecialOfferDto>
+
+
+<div class="col-lg-4">
+    @foreach (var item in Model)
+    {
+    <div class="product-offer mb-30" style="height: 200px;">
+        <img class="img-fluid" src="@item.ImageUrl" alt="">
+        <div class="offer-text">
+            <h4 class="text-white mb-3">@item.Title</h4>
+            <h6 class="text-white mb-3">@item.SubTİtle</h6>
+            <a href="" class="btn btn-primary">Alışverişe Başla</a>
+        </div>
+    </div>
+    }
+</div>
