@@ -1,0 +1,6 @@
+@MultiShop.OcelotGateway_HostAddress = http://localhost:5118
+
+GET {{MultiShop.OcelotGateway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
