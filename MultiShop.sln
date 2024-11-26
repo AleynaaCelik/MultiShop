@@ -67,7 +67,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiShop.IdentityServer", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RapidApi", "RapidApi", "{78E6AB3F-5D77-484D-B2A1-C6C27C2B062F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.RapidApiWebUI", "MultiShop.RapidApiWebUI\MultiShop.RapidApiWebUI.csproj", "{1E59DEC0-EDF2-4F76-90AE-C576D4298787}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiShop.RapidApiWebUI", "MultiShop.RapidApiWebUI\MultiShop.RapidApiWebUI.csproj", "{1E59DEC0-EDF2-4F76-90AE-C576D4298787}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{A6A9CFA3-0DBD-4D5E-ACCC-56482237A996}"
+	ProjectSection(SolutionItems) = preProject
+		TokenUIShowing.txt = TokenUIShowing.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
